@@ -1,6 +1,7 @@
 import React from 'react'
 import Counter from '../components/Counter'
 import TodoList from '../components/TodoList'
+import Profile from '../components/Profile'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <hr />
       <Counter/>
       <TodoList/>
+      <Profile />
     </div>
   )
 }
